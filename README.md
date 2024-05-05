@@ -141,7 +141,7 @@ Key findings include top-selling liquor categories, total sales volume and reven
 The analysis provides valuable insights for stakeholders in the Iowa liquor industry, including retailers, policymakers, and potential investors. Recommendations for potential liquor store locations based on sales and competition analysis offer actionable insights for entrepreneurs seeking opportunities in the market.
 
 ### Files
-Iowa_Liquor_Sales.csv: Main dataset 28.8 Million Recoreds
-split_large_dataframe.r: R script for data cleaning and splitting main file, resulting datasets are Iowa_Liquor_Sales1-4.csv
-Iowa_Liquor_Sales1.csv, Iowa_Liquor_Sales2.csv, Iowa_Liquor_Sales3.csv, Iowa_Liquor_Sales4.csv: Partitioned dataset files that are 2GB each to load into DataBricks
-FinalProject.sql: Databricks notebook containing HiveSQL and PySpark code
+- Iowa_Liquor_Sales.csv: Main dataset 28.8 Million Recoreds
+- split_large_dataframe.r: R script for data cleaning and splitting main file, resulting datasets are Iowa_Liquor_Sales1-4.csv
+- Iowa_Liquor_Sales1.csv, Iowa_Liquor_Sales2.csv, Iowa_Liquor_Sales3.csv, Iowa_Liquor_Sales4.csv: Partitioned dataset files that are 2GB each to load into DataBricks
+- FinalProject.sql: Databricks notebook containing HiveSQL and PySpark code
