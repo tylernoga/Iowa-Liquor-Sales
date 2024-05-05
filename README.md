@@ -133,10 +133,9 @@ iii.	Fireball Whiskey – 267,834 bottles.
 iv.	Barton Vodka – 267,277 bottles.
 v.	Black Velvet Whiskey – 200,780 bottles.
 
-=======
+
 ### Results
 Key findings include top-selling liquor categories, total sales volume and revenue, variations in sales across different cities and counties, seasonal trends, and predictive models for future sales. Insights specific to Iowa City highlight favorite alcohols, popular purchasing locations, and consumption statistics.
->>>>>>> Stashed changes
 
 ### Conclusion/Implications
 The analysis provides valuable insights for stakeholders in the Iowa liquor industry, including retailers, policymakers, and potential investors. Recommendations for potential liquor store locations based on sales and competition analysis offer actionable insights for entrepreneurs seeking opportunities in the market.
