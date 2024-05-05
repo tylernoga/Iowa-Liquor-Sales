@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Iowa-Liquor-Sales (HiveSQL & PySpark)
+=======
+# Iowa-Liquor-Sales
+>>>>>>> Stashed changes
 
 
 ### Executive Summary
@@ -25,6 +29,7 @@ Then, data exploration, visualization, and querying using Hive SQL on Azure Data
 
 Last, forecasting liquor sales using PySpark on the Azure Data Bricks platform. 
 
+<<<<<<< Updated upstream
 ### Methodology Cont:
 "split_large_dataframe.r"
 1.	Import the Data into RStudio: Begin by importing the original dataset Iowa_Liquor_Sales.csv into your R environment. This dataset contains around 28 million records.
@@ -132,6 +137,10 @@ iii.	Fireball Whiskey – 267,834 bottles.
 iv.	Barton Vodka – 267,277 bottles.
 v.	Black Velvet Whiskey – 200,780 bottles.
 
+=======
+### Results
+Key findings include top-selling liquor categories, total sales volume and revenue, variations in sales across different cities and counties, seasonal trends, and predictive models for future sales. Insights specific to Iowa City highlight favorite alcohols, popular purchasing locations, and consumption statistics.
+>>>>>>> Stashed changes
 
 ### Conclusion/Implications
 The analysis provides valuable insights for stakeholders in the Iowa liquor industry, including retailers, policymakers, and potential investors. Recommendations for potential liquor store locations based on sales and competition analysis offer actionable insights for entrepreneurs seeking opportunities in the market.
