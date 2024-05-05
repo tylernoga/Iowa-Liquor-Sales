@@ -64,12 +64,14 @@ Data Bricks PySpark - FinalProject.Py
 Key findings include top-selling liquor categories, total sales volume and revenue, variations in sales across different cities and counties, seasonal trends, and predictive models for future sales. Insights specific to Iowa City highlight favorite alcohols, popular purchasing locations, and consumption statistics.
 1.	What are the top-selling liquor categories in Iowa? (Product analysis): 
 a.	Liquors:
+
 i.	Fireball Cinamon Whiskey- 16,264,727 bottles sold.
 ii.	Black Velvet – 14,068,512 bottles sold.
 iii.	Hawkeye Vodka – 9,604,293 bottles sold.
 iv.	Titos Vodka – 8,780,665 bottles sold.	
  
 a.	Alcohol Categories:
+
 i.	American Vodkas - 20.03% share of top 15 (44,075,550 bottles).
 ii.	Canadian Whiskies - 15.26% share of top 15 (33,570,149 bottles).
 iii.	Whiskey Liqueur – 12.27% share of top 15 (26,989,584 bottles).
@@ -77,11 +79,15 @@ iv.	Vodka 80 Proof – 8.24% share of top 15 (18,124,615 bottles).
 v.	Spiced Rum – 8.04% share of top 15 (17,689,776 bottles).
  
 2.	How much alcohol do Iowan’s buy/drink (2012-2024)?:
+   
 a.	Bottles sold – 311,006,875 bottles.
 b.	 Sales amount ($USD) - $4,167,500,484.17.
 c.	Gallons sold – 69,494,131 gallons.
-3.	How do liquor sales vary across different counties and cities in Iowa? (Location analysis):
+
+4.	How do liquor sales vary across different counties and cities in Iowa? (Location analysis):
+   
 a.	Gallons Sold by City:
+
 i.	Des Moines – 7,570,256 bottles.
 ii.	Cedar Rapids – 4,55,982 bottles.
 iii.	Davenport – 3,386,858 bottles. 
@@ -89,6 +95,7 @@ iv.	West Des Moines – 2,513,230 bottles.
 v.	Council Bluffs – 2,263,666 bottles. 
  
 b.	($USD) Sales by City:
+
 i.	Des Moines – $507,143,084.72
 ii.	Cedar Rapids – $274,515,440.67
 iii.	Davenport – $208,386,044.02
@@ -96,13 +103,16 @@ iv.	West Des Moines – $167,438,190.36
 v.	Waterloo – $141,333,936.34
  
 4.	Are there any seasonal trends or patterns in liquor sales? (Date analysis):
+   
 a.	Continued upward growth.
 i.	Growing market!	
 b.	~Half billion USD$ every year in Iowa.
 c.	2024 Jan-Mar Sales: $102,238,458 
  
-5.	Can we predict future liquor sales based on historical data? (Forecasting model):
+6.	Can we predict future liquor sales based on historical data? (Forecasting model):
+   
 Rolling Mean & Std Deviation prediction:
+
 a.	Using SARIMAX forecasting:
 i.	Forecasted sales 2024: $616,192,700.
 1.	Actual sales so far (3 months 2024 Jan-Mar): $102,238,458
