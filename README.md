@@ -63,76 +63,64 @@ Data Bricks PySpark - FinalProject.Py
 
 ### Results
 Key findings include top-selling liquor categories, total sales volume and revenue, variations in sales across different cities and counties, seasonal trends, and predictive models for future sales. Insights specific to Iowa City highlight favorite alcohols, popular purchasing locations, and consumption statistics.
-1.	What are the top-selling liquor categories in Iowa? (Product analysis): 
-a.	Liquors:
+1.	What are the top-selling liquor categories in Iowa? (Product analysis):
+   
+![photo](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/940188be-50ef-4a8a-9a9e-b1b2ac5f3278)
 
-i.	Fireball Cinamon Whiskey- 16,264,727 bottles sold.
-ii.	Black Velvet – 14,068,512 bottles sold.
-iii.	Hawkeye Vodka – 9,604,293 bottles sold.
-iv.	Titos Vodka – 8,780,665 bottles sold.	
  
-a.	Alcohol Categories:
+![photo1](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/19a887b7-6150-422f-b42b-056953e79ed6)
 
-i.	American Vodkas - 20.03% share of top 15 (44,075,550 bottles).
-ii.	Canadian Whiskies - 15.26% share of top 15 (33,570,149 bottles).
-iii.	Whiskey Liqueur – 12.27% share of top 15 (26,989,584 bottles).
-iv.	Vodka 80 Proof – 8.24% share of top 15 (18,124,615 bottles).
-v.	Spiced Rum – 8.04% share of top 15 (17,689,776 bottles).
+
  
 2.	How much alcohol do Iowan’s buy/drink (2012-2024)?:
    
-a.	Bottles sold – 311,006,875 bottles.
-b.	 Sales amount ($USD) - $4,167,500,484.17.
-c.	Gallons sold – 69,494,131 gallons.
+- Bottles sold – 311,006,875 bottles.
+- Sales amount ($USD) - $4,167,500,484.17.
+- Gallons sold – 69,494,131 gallons.
 
 4.	How do liquor sales vary across different counties and cities in Iowa? (Location analysis):
    
 a.	Gallons Sold by City:
 
-i.	Des Moines – 7,570,256 bottles.
-ii.	Cedar Rapids – 4,55,982 bottles.
-iii.	Davenport – 3,386,858 bottles. 
-iv.	West Des Moines – 2,513,230 bottles.
-v.	Council Bluffs – 2,263,666 bottles. 
- 
+![download](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/36d49e0c-7ac1-4c9d-9620-dee0007f5e24)
+
 b.	($USD) Sales by City:
 
-i.	Des Moines – $507,143,084.72
-ii.	Cedar Rapids – $274,515,440.67
-iii.	Davenport – $208,386,044.02
-iv.	West Des Moines – $167,438,190.36
-v.	Waterloo – $141,333,936.34
+![download (1)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/bfcc2d3b-574d-40c9-abee-7ceee0c01035)
+
  
 4.	Are there any seasonal trends or patterns in liquor sales? (Date analysis):
-   
-a.	Continued upward growth.
-i.	Growing market!	
-b.	~Half billion USD$ every year in Iowa.
-c.	2024 Jan-Mar Sales: $102,238,458 
+-	Continued upward growth.
+-	Growing market!	
+-	~Half billion USD$ every year in Iowa.
+-	2024 Jan-Mar Sales: $102,238,458
+-	![download (2)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/3f0eab68-d7c0-4467-ba91-f79c1e150d62)
  
 6.	Can we predict future liquor sales based on historical data? (Forecasting model):
    
 Rolling Mean & Std Deviation prediction:
-
 a.	Using SARIMAX forecasting:
-i.	Forecasted sales 2024: $616,192,700.
-1.	Actual sales so far (3 months 2024 Jan-Mar): $102,238,458
-2.	Sales increase in the summer months (June-Aug)
-3.	Sales also increase in the month of December. 
-a.	Estimate might be a bit on the high side but could be likely.
-ii.	Forecasted sales 2025: $619,093,200.
-b.	Using average growth 2012-2023:
-i.	2024 sales = (1+ (((446m-255m)/255m) / 12 years))*446m = $474M
-c.	Average between both forecasting models:
-i.	2024 sales: (474M+619M)/2 = $546.5M
-6.	Specific questions for the city “Iowa City”:
-a.	Favorite alcohols? (Iowa City likes Vodka & Whiskey)
-i.	Hawkeye Vodka - 364,234 bottles.
-ii.	Titos Vodka – 328,805 bottles.
-iii.	Fireball Whiskey – 267,834 bottles.
-iv.	Barton Vodka – 267,277 bottles.
-v.	Black Velvet Whiskey – 200,780 bottles.
+-	Forecasted sales 2024: $616,192,700.
+-	Actual sales so far (3 months 2024 Jan-Mar): $102,238,458
+-	Sales increase in the summer months (June-Aug)
+-	Sales also increase in the month of December. 
+- Forecasted sales 2025: $619,093,200.
+![download (4)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/3ebc4ac4-de70-4d3d-b1e2-5d809fa3f4fb)
+![download (5)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/6b0cf44b-40a6-4cc2-a34d-c2bf0e28a699)
+![download (6)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/06991949-9be7-46c1-9df4-689d07b81cdd)
+![download (7)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/34f91a77-cf5d-4542-9fab-497c65383c5a)
 
+
+b. Using average growth 2012-2023:
+- 2024 sales = (1+ (((446m-255m)/255m) / 12 years))*446m = $474M
+
+c. Average between both forecasting models:
+- 2024 sales: (474M+619M)/2 = $546.5M
+  
+6.	Specific questions for the city “Iowa City”:
+- Favorite alcohols? (Iowa City likes Vodka & Whiskey)
+
+![download (3)](https://github.com/tylernoga/Iowa-Liquor-Sales/assets/114703388/041f19ea-0b6b-442a-bfdb-4542b5546d39)
 
 ### Results
 Key findings include top-selling liquor categories, total sales volume and revenue, variations in sales across different cities and counties, seasonal trends, and predictive models for future sales. Insights specific to Iowa City highlight favorite alcohols, popular purchasing locations, and consumption statistics.
