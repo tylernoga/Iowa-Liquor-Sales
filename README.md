@@ -33,6 +33,7 @@ Last, forecasting liquor sales using PySpark on the Azure Data Bricks platform.
 4.	Write the four split data frames to CSV Files: Once the dataset is divided into four smaller data frames, save each smaller data frame as a separate CSV file with header rows removed and the delimiter set to “|”.  This step allows us to upload each data frame (around 2GB each) individually to Data Bricks File Store (DBFS). The resulting CSV files are named Iowa_Liquor_Sales1.csv, Iowa_Liquor_Sales2.csv, Iowa_Liquor_Sales3, and Iowa_Liquor_Sales4.csv. These files can be located under the file store in our Data Bricks cluster at “/FileStore/dbfs/users/tnoga”. 
 
 Data Bricks HiveSQL - "FinalProject.sql"
+
 5.	Copy Files from File Store to own user in Data Bricks: Make sure to copy the original files to your own user in Data Bricks. This step ensures that we always have the original copy of data stored in FileStore. For example, copying Iowa_Liquor_Sales1.csv to your own user would look something like this: 
 a.	%fs cp "/FileStore/dbfs/users/tnoga/Iowa_Liquor_Sales1.csv" "/users/tnoga/Iowa_Liquor_Sales1.csv"
 6.	Table Creation: Create a new table in your own database using Hive SQL language to hold the liquor sales data. The table schema should include all the necessary columns from the CSV files with the appropriate data types. 
@@ -55,6 +56,7 @@ iv.	Which college city (Iowa city vs Ames) drank more alcohol (University of Iow
 g.	Where would be a good location for a liquor store in Iowa?
 
 Data Bricks PySpark - FinalProject.Py
+
 13.	PySpark: Next conduct time series analysis on annual liquor sales data using PySpark. First, import necessary libraries and load the sales data from HiveSQL table (tnoga.Iowa_Liquor_Sales) into a Pandas DataFrame. Next, extract and aggregate sales by year with sum(sales) as our target prediction. Once the data is loaded into an aggregated panda’s data frame by year, conduct the time series analysis using rolling statistics and the Dickey-Fuller test, which ensures the absence of trends or seasonality.  Next calculate autocorrelation and partial autocorrelation to determine the lag order for the SARIMAX model.
 14.	Fit and train the SARIMAX model to forecast values for the years 2024 and 2025: Using PySpark conduct time series forecasting for liquor sales data using a SARIMA (Seasonal Autoregressive Integrated Moving Average) model. First import necessary libraries and load the sales data from the Hive table into a Pandas DataFrame. Make sure to extract and aggregate sales by year. Fit the SARIMA model to the sales data, specifying the order and seasonal order parameters determined from step 13.  After fitting the model, forecasts the sales for the years up to 2024 and extend the time series to include this forecasted value. Then retrain the SARIMA model using the extended time series data to incorporate the forecasted value of 2024. Finally, use this new model to forecast sales for the year 2025. 
 
