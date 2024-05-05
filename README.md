@@ -1,9 +1,6 @@
 
 # Iowa-Liquor-Sales (HiveSQL & PySpark)
 
-# Iowa-Liquor-Sales
-
-
 ### Executive Summary
 This is my most recent project that I completed my senior year (May 2024) for the class BAIS:4220 - Adv. Database Mgmt & Big Data. By using big data analytics techniques learned thorughout the class such as Hive SQL and PySpark on the Azure Databricks platform, the objective of this analysis is to leverage publicly available data to gain insights about Iowa liquor sales trends, patterns, and geographical variations for the Iowa Liquor Sales dataset which can be acquired from here: https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy/about_data.
 
