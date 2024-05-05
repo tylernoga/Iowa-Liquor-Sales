@@ -1,8 +1,7 @@
-<<<<<<< Updated upstream
+
 # Iowa-Liquor-Sales (HiveSQL & PySpark)
-=======
+
 # Iowa-Liquor-Sales
->>>>>>> Stashed changes
 
 
 ### Executive Summary
@@ -29,7 +28,7 @@ Then, data exploration, visualization, and querying using Hive SQL on Azure Data
 
 Last, forecasting liquor sales using PySpark on the Azure Data Bricks platform. 
 
-<<<<<<< Updated upstream
+
 ### Methodology Cont:
 "split_large_dataframe.r"
 1.	Import the Data into RStudio: Begin by importing the original dataset Iowa_Liquor_Sales.csv into your R environment. This dataset contains around 28 million records.
